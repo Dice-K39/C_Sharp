@@ -1,0 +1,12 @@
+/Users/daisukehashimoto/Projects/MyFirstConsoleApp/MyFirstConsoleApp/bin/Debug/netcoreapp3.1/MyFirstConsoleApp.deps.json
+/Users/daisukehashimoto/Projects/MyFirstConsoleApp/MyFirstConsoleApp/bin/Debug/netcoreapp3.1/MyFirstConsoleApp.runtimeconfig.json
+/Users/daisukehashimoto/Projects/MyFirstConsoleApp/MyFirstConsoleApp/bin/Debug/netcoreapp3.1/MyFirstConsoleApp.runtimeconfig.dev.json
+/Users/daisukehashimoto/Projects/MyFirstConsoleApp/MyFirstConsoleApp/bin/Debug/netcoreapp3.1/MyFirstConsoleApp.dll
+/Users/daisukehashimoto/Projects/MyFirstConsoleApp/MyFirstConsoleApp/bin/Debug/netcoreapp3.1/MyFirstConsoleApp.pdb
+/Users/daisukehashimoto/Projects/MyFirstConsoleApp/MyFirstConsoleApp/obj/Debug/netcoreapp3.1/MyFirstConsoleApp.csprojAssemblyReference.cache
+/Users/daisukehashimoto/Projects/MyFirstConsoleApp/MyFirstConsoleApp/obj/Debug/netcoreapp3.1/MyFirstConsoleApp.AssemblyInfoInputs.cache
+/Users/daisukehashimoto/Projects/MyFirstConsoleApp/MyFirstConsoleApp/obj/Debug/netcoreapp3.1/MyFirstConsoleApp.AssemblyInfo.cs
+/Users/daisukehashimoto/Projects/MyFirstConsoleApp/MyFirstConsoleApp/obj/Debug/netcoreapp3.1/MyFirstConsoleApp.csproj.CoreCompileInputs.cache
+/Users/daisukehashimoto/Projects/MyFirstConsoleApp/MyFirstConsoleApp/obj/Debug/netcoreapp3.1/MyFirstConsoleApp.dll
+/Users/daisukehashimoto/Projects/MyFirstConsoleApp/MyFirstConsoleApp/obj/Debug/netcoreapp3.1/MyFirstConsoleApp.pdb
+/Users/daisukehashimoto/Projects/MyFirstConsoleApp/MyFirstConsoleApp/obj/Debug/netcoreapp3.1/MyFirstConsoleApp.genruntimeconfig.cache
