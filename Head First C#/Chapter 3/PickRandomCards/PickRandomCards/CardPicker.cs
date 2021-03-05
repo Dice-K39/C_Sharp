@@ -4,7 +4,7 @@ namespace PickRandomCards
     public class CardPicker
     {
         static Random random = new Random();
-
+        
         public CardPicker()
         {
         }
@@ -16,6 +16,17 @@ namespace PickRandomCards
             for (int i = 0; i < numberOfCards; i++)
             {
                 pickedCards[i] = RandomValue() + " of " + RandomSuit();
+            }
+
+            Random random2 = new Random();
+            double[] randomDoubles = new double[20];
+
+            for (int i = 0; i < randomDoubles.Length; i++)
+            {
+                double value = random2.NextDouble();
+
+                randomDoubles[i] = value;
+                Console.WriteLine(randomDoubles[i]);
             }
 
             return pickedCards;

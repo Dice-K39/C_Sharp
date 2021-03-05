@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{FD180F38-AA93-43D3-AE68-D8E42F34B3A9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PickRandomCards/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PickRandomCards/CardPicker.cs">
     <Files>
       <File FileName="PickRandomCards/Program.cs" Line="28" Column="2" />
       <File FileName="PickRandomCards/CardPicker.cs" Line="36" Column="37" />
@@ -9,7 +9,7 @@
         <State name="__root__">
           <Node name="PickRandomCards" expanded="True">
             <Node name="PickRandomCards" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="CardPicker.cs" selected="True" />
             </Node>
           </Node>
         </State>
