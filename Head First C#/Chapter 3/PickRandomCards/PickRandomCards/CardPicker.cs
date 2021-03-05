@@ -9,6 +9,11 @@ namespace PickRandomCards
         {
         }
 
+        /// <summary>
+        /// Picks a number of cards and returns them.
+        /// </summary>
+        /// <param name="numberOfCards">The number of cards to pick.</param>
+        /// <returns>An array of strings that contain the card names.</returns>
         public static string[] PickSomeCards(int numberOfCards)
         {
             string[] pickedCards = new string[numberOfCards];
@@ -16,17 +21,6 @@ namespace PickRandomCards
             for (int i = 0; i < numberOfCards; i++)
             {
                 pickedCards[i] = RandomValue() + " of " + RandomSuit();
-            }
-
-            Random random2 = new Random();
-            double[] randomDoubles = new double[20];
-
-            for (int i = 0; i < randomDoubles.Length; i++)
-            {
-                double value = random2.NextDouble();
-
-                randomDoubles[i] = value;
-                Console.WriteLine(randomDoubles[i]);
             }
 
             return pickedCards;
