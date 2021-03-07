@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{7A351F56-B362-4C7D-BCB1-F53F2BA700DF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GuyMoneyExchange/Guy.cs">
+    <Files>
+      <File FileName="GuyMoneyExchange/Program.cs" Line="12" Column="1" />
+      <File FileName="GuyMoneyExchange/Guy.cs" Line="8" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GuyMoneyExchange" expanded="True">
+            <Node name="GuyMoneyExchange" expanded="True">
+              <Node name="Guy.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GuyMoneyExchange FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

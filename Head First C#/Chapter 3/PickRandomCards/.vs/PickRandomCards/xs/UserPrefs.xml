@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="PickRandomCards/CardPicker.cs">
     <Files>
       <File FileName="PickRandomCards/Program.cs" Line="28" Column="2" />
-      <File FileName="PickRandomCards/CardPicker.cs" Line="36" Column="37" />
+      <File FileName="PickRandomCards/CardPicker.cs" Line="16" Column="70" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
