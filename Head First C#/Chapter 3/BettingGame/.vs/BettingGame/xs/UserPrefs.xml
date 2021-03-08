@@ -1,14 +1,14 @@
-﻿<Properties StartupConfiguration="{7A351F56-B362-4C7D-BCB1-F53F2BA700DF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GuyMoneyExchange/Guy.cs">
+﻿<Properties StartupConfiguration="{CBFDF3F2-8B34-4DB2-A52E-50C369575397}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BettingGame/Guy.cs">
     <Files>
-      <File FileName="GuyMoneyExchange/Program.cs" Line="28" Column="1" />
-      <File FileName="GuyMoneyExchange/Guy.cs" Line="23" Column="23" />
+      <File FileName="BettingGame/Program.cs" Line="1" Column="1" />
+      <File FileName="BettingGame/Guy.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="GuyMoneyExchange" expanded="True">
-            <Node name="GuyMoneyExchange" expanded="True">
+          <Node name="BettingGame" expanded="True">
+            <Node name="BettingGame" expanded="True">
               <Node name="Guy.cs" selected="True" />
             </Node>
           </Node>
@@ -16,7 +16,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.GuyMoneyExchange PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BettingGame FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
