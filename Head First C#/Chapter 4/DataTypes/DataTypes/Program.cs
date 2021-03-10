@@ -6,7 +6,10 @@ namespace DataTypes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            float myFloatValue = 10;
+            int myIntValue = (int) myFloatValue; // casing float value to an int
+
+            Console.WriteLine("myIntValue is " + myIntValue);
         }
     }
 }
