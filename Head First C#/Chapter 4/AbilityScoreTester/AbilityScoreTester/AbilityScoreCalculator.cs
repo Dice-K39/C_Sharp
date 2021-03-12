@@ -19,7 +19,7 @@ namespace AbilityScoreTester
             double divided = RollResult / DivideBy;
 
             // Add AddAmount to the result of that division
-            int added = AddAmount += (int) divided;
+            int added = AddAmount + (int) divided;
 
             // If the result is too small, use Minimum
             if (added < Minimum)
