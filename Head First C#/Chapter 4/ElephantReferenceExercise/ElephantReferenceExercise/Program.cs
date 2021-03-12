@@ -40,17 +40,10 @@ namespace ElephantReferenceExercise
                 }
                 else
                 {
-                    Console.WriteLine("Invalid choice.");
-                }
-
-                Console.WriteLine("Press Q to quit, any other key to continue");
-
-                char character = Console.ReadKey(true).KeyChar;
-
-                if ((character == 'Q') || (character == 'q'))
-                {
                     return;
                 }
+
+                Console.WriteLine();
             }
         }
     }
