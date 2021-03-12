@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{3F8B8052-0545-4F8D-A489-1347B39675DF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SloppyJoesBudgetHouseODiscountSandwiches/Pages/Index.razor">
+    <Files>
+      <File FileName="SloppyJoesBudgetHouseODiscountSandwiches/Pages/Index.razor" Line="50" Column="37" />
+      <File FileName="SloppyJoesBudgetHouseODiscountSandwiches/MenuItem.cs" Line="6" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SloppyJoesBudgetHouseODiscountSandwiches" expanded="True">
+            <Node name="SloppyJoesBudgetHouseODiscountSandwiches" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Index.razor" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>Name</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SloppyJoesBudgetHouseODiscountSandwiches PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
