@@ -38,6 +38,16 @@ namespace ElephantReferenceExercise
                     lloyd = lucinda;
                     lucinda = temp;
                 }
+                else if (choice == '4')
+                {
+                    lloyd = lucinda;
+                    lloyd.EarSize = 4321;
+                    lloyd.WhoAmI();
+                }
+                else if (choice == '5')
+                {
+                    lucinda.SpeakTo(lloyd, "Hi, Lloyd!");
+                }
                 else
                 {
                     return;
