@@ -18,42 +18,18 @@ namespace DamageCalculation
 
                 char choice = Console.ReadKey().KeyChar;
 
+                if (choice != '0' && choice != '1' && choice != '2' && choice != '3')
+                {
+                    return;
+                }
+
                 for (int i = 0; i < 3; i++)
                 {
                     damage.Roll += random.Next(1, 7);
                 }
 
-                switch (choice)
-                {
-                    case '0':
-                        {
-                            damage.SetMagic(false);
-                            damage.SetFlaming(false);
-                            break;
-                        }
-                    case '1':
-                        {   
-                            damage.SetMagic(true);
-                            damage.SetFlaming(false);
-                            break;
-                        }
-                    case '2':
-                        {
-                            damage.SetMagic(false);
-                            damage.SetFlaming(true);
-                            break;
-                        }
-                    case '3':
-                        {
-                            damage.SetMagic(true);
-                            damage.SetFlaming(true);
-                            break;
-                        }
-                    default:
-                        {
-                            return;
-                        }
-                }
+                damage.SetMagic(choice == '1' || choice == '3');
+                damage.SetFlaming(choice == '2' || choice == '3');
 
                 Console.WriteLine("Rolled " + damage.Roll + " for " + damage.Damage + " HP\n");
             }
