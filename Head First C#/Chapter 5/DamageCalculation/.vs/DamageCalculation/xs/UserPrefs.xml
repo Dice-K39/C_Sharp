@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{E8C0169F-466E-462F-B3E1-5852E7E83E94}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DamageCalculation/SwordDamage.cs">
+    <Files>
+      <File FileName="DamageCalculation/Program.cs" Line="1" Column="1" />
+      <File FileName="DamageCalculation/SwordDamage.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DamageCalculation" expanded="True">
+            <Node name="DamageCalculation" expanded="True">
+              <Node name="SwordDamage.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DamageCalculation FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
