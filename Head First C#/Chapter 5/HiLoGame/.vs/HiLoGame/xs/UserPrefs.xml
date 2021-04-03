@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{84453F6F-F7DD-47FA-A5BB-A09023A9677E}|Default">
+  <MonoDevelop.Ide.ItemProperties.HiLoGame FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HiLoGame/HiLoGame.cs">
+    <Files>
+      <File FileName="HiLoGame/Program.cs" Line="38" Column="61" />
+      <File FileName="HiLoGame/HiLoGame.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HiLoGame" expanded="True">
+            <Node name="HiLoGame" expanded="True">
+              <Node name="HiLoGame.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
