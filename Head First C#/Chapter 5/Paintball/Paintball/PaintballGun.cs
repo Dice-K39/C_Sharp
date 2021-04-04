@@ -6,29 +6,18 @@ namespace Paintball
         public const int MAGAZINE_SIZE = 16;
 
         private int balls = 0;
-        private int ballsLoaded = 0;
+        
         
 
         public PaintballGun()
         {
         }
 
-        public int BallsLoaded
-        {
-            get
-            {
-                return ballsLoaded;
-            }
-
-            set
-            {
-                ballsLoaded = value;
-            }
-        }
+        public int BallsLoaded { get; set; }
 
         public bool IsEmpty()
         {
-            return ballsLoaded == 0;
+            return BallsLoaded == 0;
         }
 
         public int Balls
@@ -53,22 +42,22 @@ namespace Paintball
         {
             if (balls > MAGAZINE_SIZE)
             {
-                ballsLoaded = MAGAZINE_SIZE;
+                BallsLoaded = MAGAZINE_SIZE;
             }
             else
             {
-                ballsLoaded = balls;
+                BallsLoaded = balls;
             }
         }
 
         public bool Shoot()
         {
-            if (ballsLoaded == 0)
+            if (BallsLoaded == 0)
             {
                 return false;
             }
 
-            ballsLoaded--;
+            BallsLoaded--;
             balls--;
 
             return true;
