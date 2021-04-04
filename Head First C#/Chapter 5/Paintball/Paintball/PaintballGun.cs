@@ -7,14 +7,23 @@ namespace Paintball
 
         private int balls = 0;
         private int ballsLoaded = 0;
+        
 
         public PaintballGun()
         {
         }
 
-        public int GetBallsLoaded()
+        public int BallsLoaded
         {
-            return ballsLoaded;
+            get
+            {
+                return ballsLoaded;
+            }
+
+            set
+            {
+                ballsLoaded = value;
+            }
         }
 
         public bool IsEmpty()

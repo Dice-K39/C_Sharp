@@ -10,7 +10,7 @@ namespace Paintball
 
             while (true)
             {
-                Console.WriteLine($"{gun.GetBalls()} balls, {gun.GetBallsLoaded()} loaded");
+                Console.WriteLine($"{gun.Balls} balls, {gun.BallsLoaded} loaded");
 
                 if (gun.IsEmpty())
                 {
@@ -31,7 +31,7 @@ namespace Paintball
                 }
                 else if (key == '+')
                 {
-                    gun.SetBalls(gun.GetBalls() + PaintballGun.MAGAZINE_SIZE);
+                    gun.Balls += PaintballGun.MAGAZINE_SIZE;
                 }
                 else if (key == 'q')
                 {
