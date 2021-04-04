@@ -6,7 +6,14 @@ namespace Paintball
     {
         static void Main(string[] args)
         {
-            PaintballGun gun = new PaintballGun();
+            int numberOfBalls = ReadInt(20, "Number of balls");
+            int magazineSize = ReadInt(16, "Magazine size");
+
+            Console.Write($"Loaded [false]: ");
+
+            bool.TryParse(Console.ReadLine(), out bool isLoaded);
+
+            PaintballGun gun = new PaintballGun(numberOfBalls, magazineSize, isLoaded);
 
             while (true)
             {
@@ -31,7 +38,7 @@ namespace Paintball
                 }
                 else if (key == '+')
                 {
-                    gun.Balls += PaintballGun.MAGAZINE_SIZE;
+                    gun.Balls += gun.MagazineSize;
                 }
                 else if (key == 'q')
                 {
@@ -39,5 +46,30 @@ namespace Paintball
                 }
             }
         }
+
+        static int ReadInt(int lastUsedValue, string prompt)
+        {
+            // Write the prompt followed by [default value]:
+            Console.Write(prompt + " [" + lastUsedValue + "]: ");
+
+            // Read the line from the input and use int.TryParse to attempt to parse it
+            string stringValue = Console.ReadLine();
+
+            if (int.TryParse(stringValue, out int value))
+            {
+                // If it can be parsed, write " using value" + value to the console
+                Console.WriteLine(" using value " + value);
+
+                return value;
+            }
+            else
+            {
+                // Otherwise write " using default value" + lastUsedValue to the console
+                Console.WriteLine(" using default value " + lastUsedValue);
+
+                return lastUsedValue;
+            }
+        }
+
     }
 }
