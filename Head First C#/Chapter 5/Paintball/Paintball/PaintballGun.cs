@@ -22,19 +22,22 @@ namespace Paintball
             return ballsLoaded == 0;
         }
 
-        public int GetBalls()
+        public int Balls
         {
-            return balls;
-        }
-
-        public void SetBalls(int numberOfBalls)
-        {
-            if (numberOfBalls > 0)
+            get
             {
-                balls = numberOfBalls;
+                return balls;
             }
 
-            Reload();
+            set
+            {
+                if (value > 0)
+                {
+                    balls = value;
+                }
+
+                Reload();
+            }
         }
 
         public void Reload()
