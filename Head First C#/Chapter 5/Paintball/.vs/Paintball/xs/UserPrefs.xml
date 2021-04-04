@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{07ABC603-36F5-4BDC-AC6B-9070DE54579B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Paintball FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Paintball/PaintballGun.cs">
+    <Files>
+      <File FileName="Paintball/Program.cs" Line="1" Column="1" />
+      <File FileName="Paintball/PaintballGun.cs" Line="6" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Paintball" expanded="True">
+            <Node name="Paintball" expanded="True">
+              <Node name="PaintballGun.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
